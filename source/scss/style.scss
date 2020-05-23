@@ -20,3 +20,10 @@
 @import "blocks/screen.scss";
 @import "blocks/slider.scss";
 @import "blocks/social-block.scss";
+
+#lessonCanvas {
+  position: fixed;
+  z-index: 1000000000;
+  top: 0;
+  left: 0;
+}
